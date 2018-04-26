@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
 	"process_id" : 11598,
 	"version" : "2017.4.1f1"
+=======
+	"process_id" : 800,
+	"version" : "2017.3.1f1"
+>>>>>>> 0c229c82e9a6e07af3e0e01fa4173e8c289afdbe
 }
