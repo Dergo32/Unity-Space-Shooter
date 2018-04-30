@@ -105,6 +105,7 @@
      <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
+     <None Include="Assets\MaterialUI\Fonts\comic-sans-ms\sharefonts.net.txt" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
