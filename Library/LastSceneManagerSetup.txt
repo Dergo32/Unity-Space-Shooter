@@ -1,8 +1,1 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Levels/Level01.unity
-=======
-- path: Assets/Levels/Main Menu.unity
->>>>>>> 077ca06b91eb24fd80eb509e7f4eb7e05f745613
-  isLoaded: 1
-  isActive: 1
+sceneSetups: []

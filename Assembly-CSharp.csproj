@@ -103,7 +103,7 @@
      <Compile Include="Assets\MaterialUI\Scripts\Toaster.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\ToggleConfig.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
-     <Compile Include="Assets\PlayerCamera.cs" />
+     <Compile Include="Assets\Scripts\PlayerCamera.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
      <None Include="Assets\MaterialUI\Fonts\comic-sans-ms\sharefonts.net.txt" />
