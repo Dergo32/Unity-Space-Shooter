@@ -24,7 +24,7 @@ public class Done_GameController : MonoBehaviour
     {
         gameOver = false;
         restart = false;
-        restartText.text = "Hello";
+        restartText.text = "";
         gameOverText.text = "";
         score = 0;
         UpdateScore();
