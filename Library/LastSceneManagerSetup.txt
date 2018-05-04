@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Levels/Statistics Screen.unity
+=======
 - path: Assets/Levels/Level01.unity
+>>>>>>> e77dcff23e043a01b86848fd82a2803dda2b5457
   isLoaded: 1
   isActive: 1
