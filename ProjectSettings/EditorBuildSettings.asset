@@ -8,3 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Main Menu.unity
     guid: b193451ee509d43ff8ece961830113ba
+  - enabled: 1
+    path: Assets/Levels/Level01.unity
+    guid: f7d4d2f48b01f4f3eb5cc49d472a2174
+  - enabled: 1
+    path: Assets/Levels/Statistics Screen.unity
+    guid: a1774deda8ec44a3d8b1abac354da8b1
