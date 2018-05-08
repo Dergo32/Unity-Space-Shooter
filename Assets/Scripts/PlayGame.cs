@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement
+using UnityEngine.SceneManagement;
 
 public class PlayGame : MonoBehaviour {
 
-	public void LoadNextlevel(){
-		SceneManager.LoadScene(Level01);
-	}
+	public void loadnextlevel()
+	{
+		SceneManagement.LoadScene(Level01);
 
 	}
 }

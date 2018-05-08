@@ -114,7 +114,6 @@
      <Compile Include="Assets\Scripts\PlayGame.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
-     <None Include="Assets\MaterialUI\Fonts\comic-sans-ms\sharefonts.net.txt" />
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
