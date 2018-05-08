@@ -28,6 +28,5 @@ To install this project, you will need the following:
 
 ## Acknowledgments
 
-* Game Background obtained from [getwallpapers.com](http://getwallpapers.com/collection/star-wars-space-background/)
 * Thanks to everyone who has made the assets used in this project
 
