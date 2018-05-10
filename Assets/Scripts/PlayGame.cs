@@ -7,7 +7,7 @@ public class PlayGame : MonoBehaviour {
 
 	public void loadnextlevel()
 	{
-		SceneManagement.LoadScene(Level01);
+		SceneManager.LoadScene ("Level01", LoadSceneMode.Single);
 
 	}
 }
