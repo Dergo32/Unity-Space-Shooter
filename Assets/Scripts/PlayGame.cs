@@ -7,11 +7,7 @@ public class PlayGame : MonoBehaviour {
 
 	public void loadnextlevel()
 	{
-<<<<<<< HEAD
 		SceneManager.LoadScene ("Level01", LoadSceneMode.Single);
-=======
-		SceneManager.LoadScene(2);	//use index in build settings
->>>>>>> 18b6b13fdcbd7bd3ba771c4f55e0178d2d6c5fac
 
 	}
 
