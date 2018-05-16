@@ -2,14 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayGame.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/Scripts/PlayGame.cs" Line="11" Column="1" />
-      <File FileName="Assets/Scripts/PlayerCamera.cs" Line="18" Column="2" />
-      <File FileName="Assets/Scripts/Exit.cs" Line="8" Column="10" />
-=======
-      <File FileName="Assets/Scripts/PlayGame.cs" Line="9" Column="3" />
-      <File FileName="Assets/Scripts/playerMovement.cs" Line="32" Column="4" />
->>>>>>> 18b6b13fdcbd7bd3ba771c4f55e0178d2d6c5fac
+      <File FileName="Assets/Scripts/PlayGame.cs" Line="11" Column="60" />
+      <File FileName="Assets/Scripts/PlayerCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Exit.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
