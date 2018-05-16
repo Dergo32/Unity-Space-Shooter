@@ -7,10 +7,6 @@ public class PlayGame : MonoBehaviour {
 
 	public void loadnextlevel()
 	{
-<<<<<<< HEAD
-
-=======
->>>>>>> 0e9038341d093285a59088b2838aee31288058ae
 		SceneManager.LoadScene ("Level01", LoadSceneMode.Single);
 
 	}

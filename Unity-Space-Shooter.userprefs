@@ -1,15 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerMovement.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/Scripts/PlayGame.cs" Line="11" Column="60" />
-      <File FileName="Assets/Scripts/PlayerCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Exit.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/playerMovement.cs" Line="1" Column="1" />
-=======
-      <File FileName="Assets/Scripts/PlayGame.cs" Line="17" Column="28" />
->>>>>>> 0e9038341d093285a59088b2838aee31288058ae
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="18" Column="31" />
+      <File FileName="Assets/Scripts/PlayGame.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
