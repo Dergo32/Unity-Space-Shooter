@@ -606,7 +606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1652682504}
   smoothSpeed: 10
-  scrollSpeed: 0.005
+  scrollSpeed: 0.01
   Offset: {x: 0, y: 2, z: 1.05}
 --- !u!1 &1652682499
 GameObject:
@@ -730,8 +730,8 @@ MonoBehaviour:
   playerShip: {fileID: 1652682504}
   playerCamera: {fileID: 1150756570}
   freezeRotation: 0
-  minBoundX: 1.8
-  maxBoundX: 1.8
+  minBoundX: 2
+  maxBoundX: 2
   minBoundZ: 1.7
   maxBoundZ: 1.7
   minCamBoundX: 0
@@ -739,7 +739,6 @@ MonoBehaviour:
   minCamBoundZ: 0
   maxCamBoundZ: 0
   slowSpeed: 0.9
-  forceForward: 200
   forwardForce: 2
   sidewaysForce: 5
 --- !u!1 &1882179618
