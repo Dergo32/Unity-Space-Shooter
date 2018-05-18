@@ -13,6 +13,8 @@ public class PlayGame : MonoBehaviour {
 
 	public GameObject settingspanel;
 	public GameObject leaderboardpanel;
+	public GameObject shoppanel;
+
 
 	public void OpenSettings()
 	{
@@ -24,6 +26,11 @@ public class PlayGame : MonoBehaviour {
 		leaderboardpanel.active = true;
 	}
 
+	public void OpenShop()
+	{
+		shoppanel.active = true;
+	}
+
 	public void backfromsettings()
 	{
 		settingspanel.active = false;
@@ -32,5 +39,10 @@ public class PlayGame : MonoBehaviour {
 	public void backfromleaderboard()
 	{
 		leaderboardpanel.active = false;
+	}
+
+	public void backfromshop()
+	{
+		shoppanel.active = false;
 	}
 }
