@@ -13,7 +13,6 @@ public class playerMovement : MonoBehaviour {
 	public float minCamBoundX, maxCamBoundX, minCamBoundZ, maxCamBoundZ;
 
 	public float slowSpeed;				//speed by which player slows down
- 	public float forceForward = 200f;	//game forces player forward constantly
 	public float forwardForce = 200f;	//player can go faster if desired
 	public float sidewaysForce = 1000f;	//player can fly to the sides of the screen
 
@@ -52,17 +51,23 @@ public class playerMovement : MonoBehaviour {
 			playerBody.AddForce (0, 0, -forwardForce * Time.deltaTime, ForceMode.VelocityChange);
 		}
 
-		playerBody.position = new Vector3 (
-			Mathf.Clamp (playerBody.position.x, minCamBoundX, maxCamBoundX),
-			0.0f,
-			Mathf.Clamp (playerBody.position.z, minCamBoundZ, maxCamBoundZ)
-		);
-
-
 		if (Input.GetKey (KeyCode.LeftShift)) {		//player can slow to a stop
 
 			playerBody.velocity = playerBody.velocity * slowSpeed;		//make sure slowSpeed is a decimal between 1 and 0 when adjusting values
 
 		}
+
+		playerRestrict ();
+
+	}
+
+	private void playerRestrict(){
+	
+		playerBody.position = new Vector3 (
+			Mathf.Clamp (playerBody.position.x, minCamBoundX, maxCamBoundX),
+			0.0f,
+			Mathf.Clamp (playerBody.position.z, minCamBoundZ, maxCamBoundZ)
+		);
 	}
 }
+	

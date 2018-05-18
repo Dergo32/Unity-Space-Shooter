@@ -3,6 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerMovement.cs">
     <Files>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <File FileName="Assets/Scripts/PlayGame.cs" Line="9" Column="3" />
       <File FileName="Assets/Scripts/PlayerCamera.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Exit.cs" Line="1" Column="1" />
@@ -12,6 +13,10 @@
       <File FileName="Assets/Scripts/playerMovement.cs" Line="18" Column="31" />
       <File FileName="Assets/Scripts/PlayGame.cs" Line="1" Column="1" />
 >>>>>>> 4b8c778f0cfe4beceaf71460bce8a406417e4480
+=======
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="50" Column="35" />
+      <File FileName="Assets/Scripts/PlayGame.cs" Line="18" Column="3" />
+>>>>>>> b5147af188bd9702a678bbab1f4be39cd116d6ce
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
