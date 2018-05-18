@@ -587,7 +587,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1150756566}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 2.271, z: -9.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -730,11 +730,23 @@ MonoBehaviour:
   playerShip: {fileID: 1652682504}
   playerCamera: {fileID: 1150756570}
   freezeRotation: 0
+<<<<<<< HEAD
   minBoundX: -1
   maxBoundX: 1
   minBoundZ: -1
   maxBoundZ: 1
   slowSpeed: 0
+=======
+  minBoundX: 1.8
+  maxBoundX: 1.8
+  minBoundZ: 1.7
+  maxBoundZ: 1.7
+  minCamBoundX: 0
+  maxCamBoundX: 0
+  minCamBoundZ: 0
+  maxCamBoundZ: 0
+  slowSpeed: 0.9
+>>>>>>> 4b8c778f0cfe4beceaf71460bce8a406417e4480
   forceForward: 200
   forwardForce: 2
   sidewaysForce: 5
