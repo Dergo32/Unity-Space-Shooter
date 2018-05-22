@@ -11,9 +11,16 @@ public class PlayGame : MonoBehaviour {
 
 	}
 
+	public void backtomainmenu()
+	{
+		SceneManager.LoadScene ("Main Menu", LoadSceneMode.Single);
+
+	}
+
 	public GameObject settingspanel;
 	public GameObject leaderboardpanel;
 	public GameObject shoppanel;
+	public GameObject PauseMenu;
 
 
 	public void OpenSettings()
@@ -31,6 +38,11 @@ public class PlayGame : MonoBehaviour {
 		shoppanel.active = true;
 	}
 
+	public void OpenPause()
+	{
+		PauseMenu.active = true;
+	}
+
 	public void backfromsettings()
 	{
 		settingspanel.active = false;
@@ -44,5 +56,10 @@ public class PlayGame : MonoBehaviour {
 	public void backfromshop()
 	{
 		shoppanel.active = false;
+	}
+
+	public void ExitPause()
+	{
+		PauseMenu.active = false;
 	}
 }
