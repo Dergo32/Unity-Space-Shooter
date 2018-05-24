@@ -472,6 +472,7 @@ MonoBehaviour:
   settingspanel: {fileID: 96708055}
   leaderboardpanel: {fileID: 199734307}
   shoppanel: {fileID: 719396689}
+  PauseMenu: {fileID: 0}
 --- !u!4 &405022298
 Transform:
   m_ObjectHideFlags: 0
@@ -761,7 +762,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SPACE SHOOTERS
+  m_Text: SPACE SHOOTER
 --- !u!222 &639960852
 CanvasRenderer:
   m_ObjectHideFlags: 0
