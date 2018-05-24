@@ -21,6 +21,7 @@ public class PlayGame : MonoBehaviour {
 	public GameObject leaderboardpanel;
 	public GameObject shoppanel;
 	public GameObject PauseMenu;
+	public GameObject GameOverScreen;
 
 
 	public void OpenSettings()
@@ -62,4 +63,12 @@ public class PlayGame : MonoBehaviour {
 	{
 		PauseMenu.active = false;
 	}
+
+	public void GameOver()
+	{
+		GameOverScreen.active = true;
+	}
+
+	public GameOverText[] DeathText;
+	public static List <GameOverText> DeathRandomText;
 }
