@@ -1,31 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/scrollScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/scrollScript.cs" Line="9" Column="14" />
+      <File FileName="Assets/Scripts/scrollScript.cs" Line="8" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-=======
-<<<<<<< HEAD
->>>>>>> 98a9fde3f9c0ab889d217c5156caa1fb9784fb92
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayGame.cs">
-    <Files>
-      <File FileName="Assets/Scripts/PlayGame.cs" Line="63" Column="1" />
-      <File FileName="Assets/Scripts/playerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Exit.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-<<<<<<< HEAD
-=======
-=======
-  <MonoDevelop.Ide.Workbench />
->>>>>>> 28187dd5b0a8b308b170d2fa49ab70ed3e49c287
->>>>>>> 57099e493d73a4842211a2d8531d998f48361e60
->>>>>>> 98a9fde3f9c0ab889d217c5156caa1fb9784fb92
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
