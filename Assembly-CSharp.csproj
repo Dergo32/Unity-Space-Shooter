@@ -113,7 +113,6 @@
      <Compile Include="Assets\Scripts\PlayerCamera.cs" />
      <Compile Include="Assets\Scripts\playerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayGame.cs" />
-     <Compile Include="Assets\Scripts\scrollScript.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
  <Reference Include="UnityEngine.UI">
