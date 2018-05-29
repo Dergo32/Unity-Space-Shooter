@@ -198,9 +198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171a8c8e389f7478c915a1acd52094df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileSizeZ: 0
-  backgroundTransform: {fileID: 0}
-  background: {fileID: 0}
+  offsetZ: 2
+  nextTileIsThere: 0
 --- !u!1 &210085472
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +244,6 @@ MonoBehaviour:
   leaderboardpanel: {fileID: 0}
   shoppanel: {fileID: 0}
   PauseMenu: {fileID: 1473826387}
-  GameOverScreen: {fileID: 0}
 --- !u!4 &275543744 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 62ea8a5ca94c546f29ba6dea8f379a7b, type: 2}
@@ -515,7 +513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &392030947
 RectTransform:
   m_ObjectHideFlags: 0

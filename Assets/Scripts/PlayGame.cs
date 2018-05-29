@@ -69,6 +69,7 @@ public class PlayGame : MonoBehaviour {
 		GameOverScreen.active = true;
 	}
 
-	public GameOverText[] DeathText;
-	public static List <GameOverText> DeathRandomText;
+	//not working
+	//public RandomText[] DeathText;
+	//public static List <RandomText> DeathRandomText;
 }
