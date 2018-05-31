@@ -31,7 +31,7 @@ public class scrollScript : MonoBehaviour {
 	public void FixedUpdate () {
 
 		//what to do if current tile needs another tile
-		if (nextTileIsThere == false && Scrolling == true) {
+		if (nextTileIsThere == false &&) {
 		
 			float camVerticalExtent = cam.orthographicSize * Screen.height / Screen.width;
 		

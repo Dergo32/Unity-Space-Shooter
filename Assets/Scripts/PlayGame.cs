@@ -69,12 +69,4 @@ public class PlayGame : MonoBehaviour {
 	{
 		GameOverScreen.active = true;
 	}
-
-<<<<<<< HEAD
-
-=======
-	//not working
-	//public RandomText[] DeathText;
-	//public static List <RandomText> DeathRandomText;
->>>>>>> 1fc06f8836c6ca7f5c04d30eda2ff12190b6b084
 }
