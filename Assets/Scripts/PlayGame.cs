@@ -22,7 +22,8 @@ public class PlayGame : MonoBehaviour {
 	public GameObject shoppanel;
 	public GameObject PauseMenu;
 	public GameObject GameOverScreen;
-
+	public GameObject[] DeathText;
+	public static List <GameObject> DeathRandomText;
 
 	public void OpenSettings()
 	{
@@ -69,6 +70,5 @@ public class PlayGame : MonoBehaviour {
 		GameOverScreen.active = true;
 	}
 
-	public GameOverText[] DeathText;
-	public static List <GameOverText> DeathRandomText;
+
 }

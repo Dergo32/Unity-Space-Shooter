@@ -28,10 +28,10 @@ public class scrollScript : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	public void FixedUpdate () {
 
 		//what to do if current tile needs another tile
-		if (nextTileIsThere == false) {
+		if (nextTileIsThere == false && Scrolling == true) {
 		
 			float camVerticalExtent = cam.orthographicSize * Screen.height / Screen.width;
 		
