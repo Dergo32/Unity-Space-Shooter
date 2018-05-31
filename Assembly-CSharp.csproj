@@ -109,6 +109,7 @@
      <Compile Include="Assets\PowerUp\Scripts\ScaleParticles.cs" />
      <Compile Include="Assets\PowerUp\Scripts\TakeablePowerUp.cs" />
      <Compile Include="Assets\PowerUp\Scripts\Utility\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Background.cs" />
      <Compile Include="Assets\Scripts\Exit.cs" />
      <Compile Include="Assets\Scripts\PlayerCamera.cs" />
      <Compile Include="Assets\Scripts\playerMovement.cs" />
