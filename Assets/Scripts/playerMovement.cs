@@ -16,13 +16,23 @@ public class playerMovement : MonoBehaviour {
 	public float forwardForce = 200f;	//player can go faster if desired
 	public float sidewaysForce = 1000f;	//player can fly to the sides of the screen
 
+	public GameObject laser;
+	public Transform laserSpawn;
+
 	public GameObject PauseScreen;
 
 	// Use this for initialization
 	void Start () {
 		playerBody.freezeRotation = true;
 	}
-	
+
+	void Update(){
+
+		if (Input.GetKey (KeyCode.Space)) {
+			Instantiate (laser, laserSpawn.position, laserSpawn.rotation);
+		}
+	}
+
 	// Update is called once per frame
 	void FixedUpdate () {
 
