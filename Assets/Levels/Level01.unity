@@ -1909,6 +1909,8 @@ MonoBehaviour:
   slowSpeed: 0.9
   forwardForce: 2
   sidewaysForce: 5
+  laser: {fileID: 1032975574578918, guid: 7cc4b6c5c80dc4fdfb063be6cb1c3750, type: 2}
+  laserSpawn: {fileID: 103110761}
   PauseScreen: {fileID: 1473826387}
 --- !u!1001 &1787443819
 Prefab:
