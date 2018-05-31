@@ -1727,19 +1727,19 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 3cdcd36bdec064406b7ea605784d1ee0, type: 3}
-    m_FontSize: 44
+    m_Font: {fileID: 12800000, guid: 32ce3c3e616e540598d11084952638a6, type: 3}
+    m_FontSize: 66
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 57
+    m_MaxSize: 66
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Place Holder Text
+  m_Text: YOU DIED
 --- !u!222 &1154823363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2011,7 +2011,7 @@ MonoBehaviour:
   slowSpeed: 0.9
   forwardForce: 2
   sidewaysForce: 5
-  PauseScreen: {fileID: 0}
+  PauseScreen: {fileID: 1473826387}
 --- !u!1001 &1787443819
 Prefab:
   m_ObjectHideFlags: 0
