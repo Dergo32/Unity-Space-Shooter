@@ -1,18 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Background.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/laserMove.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/Scripts/Background.cs" Line="36" Column="3" />
-=======
-<<<<<<< HEAD
-      <File FileName="Assets/Scripts/playerMovement.cs" Line="67" Column="1" />
-      <File FileName="Assets/Scripts/PlayGame.cs" Line="27" Column="2" />
-      <File FileName="Assets/Scripts/scrollScript.cs" Line="35" Column="3" />
-=======
-      <File FileName="Assets/Scripts/scrollScript.cs" Line="22" Column="2" />
->>>>>>> 1fc06f8836c6ca7f5c04d30eda2ff12190b6b084
->>>>>>> 20461b4a23fc129e0723c601b0e4fc57a472ead2
+      <File FileName="Assets/Scripts/laserMove.cs" Line="13" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
