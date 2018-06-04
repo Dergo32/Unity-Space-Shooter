@@ -16,6 +16,9 @@ public class playerMovement : MonoBehaviour {
 	public float forwardForce = 200f;	//player can go faster if desired
 	public float sidewaysForce = 1000f;	//player can fly to the sides of the screen
 
+	public float fireRate;
+	private float nextFire;
+
 	public GameObject laser;
 	public Transform laserSpawn;
 
@@ -28,7 +31,8 @@ public class playerMovement : MonoBehaviour {
 
 	void Update(){
 
-		if (Input.GetKey (KeyCode.Space)) {
+		if (Input.GetButton("Fire") && Time.time > nextFire) {
+			nextFire = Time.time + fireRate;
 			Instantiate (laser, laserSpawn.position, laserSpawn.rotation);
 		}
 	}
@@ -42,34 +46,34 @@ public class playerMovement : MonoBehaviour {
 		minCamBoundZ = playerCamera.position.z - minBoundZ;
 		maxCamBoundZ = playerCamera.position.z + maxBoundZ;
 
-		if (Input.GetKey (KeyCode.W)) {		//player can go forward faster
+		if (Input.GetButton("Move Forward")) {		//player can go forward faster
 			
 			playerBody.AddForce (0, 0, forwardForce * Time.deltaTime, ForceMode.VelocityChange);
 		}
 
-		if (Input.GetKey (KeyCode.A)) {		//player can go to the left
+		if (Input.GetButton("Move Left")) {		//player can go to the left
 
 			playerBody.AddForce (-sidewaysForce * Time.deltaTime,0, 0,ForceMode.VelocityChange);
 		}
 
-		if (Input.GetKey (KeyCode.D)) {		//player can go to the right
+		if (Input.GetButton("Move Right")) {		//player can go to the right
 
 			playerBody.AddForce (sidewaysForce * Time.deltaTime,0, 0,ForceMode.VelocityChange);
 
 		}
 
-		if (Input.GetKey (KeyCode.S)) {		//player can slow down
+		if (Input.GetButton("Brake")) {		//player can slow down
 		
 			playerBody.AddForce (0, 0, -forwardForce * Time.deltaTime, ForceMode.VelocityChange);
 		}
 
-		if (Input.GetKey (KeyCode.LeftShift)) {		//player can slow to a stop
+		if (Input.GetButton("Stop Completely")) {		//player can slow to a stop
 
 			playerBody.velocity = playerBody.velocity * slowSpeed;		//make sure slowSpeed is a decimal between 1 and 0 when adjusting values
 
 		}
 
-		if (Input.GetKey (KeyCode.Escape)) {		//player STOPS TIME AND A UI POPS UP
+		if (Input.GetButton("Pause")) {		//player STOPS TIME AND A UI POPS UP
 
 			PauseScreen.active = true; 		//make sure pause panel pops up when player presses escape
 			playerBody.velocity = Vector3.zero;
