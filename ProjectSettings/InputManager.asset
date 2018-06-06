@@ -39,7 +39,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Move Forward
-    descriptiveName: Button to move ship forward
+    descriptiveName: Move Forward
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: w
@@ -55,7 +55,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Move Left
-    descriptiveName: Button to move ship left
+    descriptiveName: Move Left
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: a
@@ -71,7 +71,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Move Right
-    descriptiveName: Button to move ship right
+    descriptiveName: Move Right
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: d
@@ -87,12 +87,12 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Brake
-    descriptiveName: Button to slow down
+    descriptiveName: Slow Down
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: s
     altNegativeButton: 
-    altPositiveButton: joystick button 0
+    altPositiveButton: 
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
@@ -151,7 +151,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Horizontal
-    descriptiveName: For developer use only
+    descriptiveName: Developer Use Only
     descriptiveNegativeName: 
     negativeButton: d
     positiveButton: a
@@ -167,7 +167,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Vertical
-    descriptiveName: For developer use only
+    descriptiveName: Developer Use Only
     descriptiveNegativeName: 
     negativeButton: s
     positiveButton: w
