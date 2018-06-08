@@ -21,7 +21,8 @@ public class playerMovement : MonoBehaviour {
 
 	public GameObject laser;
 	public Transform laserSpawn;
-
+	public GameObject Asteroid;
+	public GameObject gameoverScreen;
 	public GameObject PauseScreen;
 
 	// Use this for initialization
@@ -80,6 +81,7 @@ public class playerMovement : MonoBehaviour {
 		}
 
 
+
 		playerRestrict ();
 
 	}
@@ -92,5 +94,10 @@ public class playerMovement : MonoBehaviour {
 			Mathf.Clamp (playerBody.position.z, minCamBoundZ, maxCamBoundZ)
 		);
 	}
+
+	void OnTriggerEnter (Collider other){
+		gameoverScreen.SetActive(true);
+	}
+	
 }
 	
