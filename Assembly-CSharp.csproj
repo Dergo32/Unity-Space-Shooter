@@ -51,16 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_BGScroller.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByBoundary.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByContact.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByTime.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_EvasiveManeuver.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_GameController.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_Mover.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\Anim.cs" />
@@ -110,8 +100,10 @@
      <Compile Include="Assets\PowerUp\Scripts\TakeablePowerUp.cs" />
      <Compile Include="Assets\PowerUp\Scripts\Utility\Singleton.cs" />
      <Compile Include="Assets\Scripts\Background.cs" />
+     <Compile Include="Assets\Scripts\BoundaryDestroy.cs" />
      <Compile Include="Assets\Scripts\destroyOnContact.cs" />
      <Compile Include="Assets\Scripts\Exit.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\laserMove.cs" />
      <Compile Include="Assets\Scripts\PlayerCamera.cs" />
      <Compile Include="Assets\Scripts\playerMovement.cs" />

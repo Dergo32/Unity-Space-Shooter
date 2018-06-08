@@ -35,9 +35,9 @@ public class playerMovement : MonoBehaviour {
 			nextFire = Time.time + fireRate;
 			Instantiate (laser, laserSpawn.position, laserSpawn.rotation);
 		}
+
 	}
 
-	// Update is called once per frame
 	void FixedUpdate () {
 
 
