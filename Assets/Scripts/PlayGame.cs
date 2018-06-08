@@ -24,6 +24,7 @@ public class PlayGame : MonoBehaviour {
 	public GameObject GameOverScreen;
 	public GameObject[] DeathText;
 	public static List <GameObject> DeathRandomText;
+	public GameObject Disclaimerpanel;
 
 	public void OpenSettings()
 	{
@@ -68,5 +69,15 @@ public class PlayGame : MonoBehaviour {
 	public void GameOver()
 	{
 		GameOverScreen.active = true;
+	}
+
+	public void openDisclaimer()
+	{
+		Disclaimerpanel.active = true;
+	}
+
+	public void closedisclaimer()
+	{
+		Disclaimerpanel.active = false;
 	}
 }
