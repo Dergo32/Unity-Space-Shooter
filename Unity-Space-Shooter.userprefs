@@ -1,14 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/destroyOnContact.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerMovement.cs">
     <Files>
-<<<<<<< HEAD
       <File FileName="Assets/Scripts/playerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayGame.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Background.cs" Line="1" Column="1" />
-=======
-      <File FileName="Assets/Scripts/destroyOnContact.cs" Line="10" Column="3" />
->>>>>>> 223b959663a2d27a4b253a3173b2ead76371960b
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
