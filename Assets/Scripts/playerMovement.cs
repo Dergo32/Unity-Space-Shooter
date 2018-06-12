@@ -21,7 +21,7 @@ public class playerMovement : MonoBehaviour {
 
 	public GameObject laser;
 	public Transform laserSpawn;
-
+	public GameObject Asteroid;
 	public GameObject gameoverScreen;
 	public GameObject PauseScreen;
 
