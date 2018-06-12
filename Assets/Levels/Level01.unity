@@ -259,8 +259,10 @@ MonoBehaviour:
   leaderboardpanel: {fileID: 0}
   shoppanel: {fileID: 0}
   PauseMenu: {fileID: 1473826387}
-  GameOverScreen: {fileID: 0}
-  DeathText: []
+  GameoverScreen: {fileID: 392030946}
+  DeathText:
+  - {fileID: 0}
+  - {fileID: 0}
   Disclaimerpanel: {fileID: 0}
 --- !u!114 &210085475
 MonoBehaviour:
@@ -2258,8 +2260,9 @@ MonoBehaviour:
   fireRate: 0.25
   laser: {fileID: 1032975574578918, guid: 7cc4b6c5c80dc4fdfb063be6cb1c3750, type: 2}
   laserSpawn: {fileID: 103110761}
-  gameoverScreen: {fileID: 0}
+  Asteroid: {fileID: 0}
   PauseScreen: {fileID: 1473826387}
+  gameoverscreen: {fileID: 0}
 --- !u!1001 &1787443819
 Prefab:
   m_ObjectHideFlags: 0
