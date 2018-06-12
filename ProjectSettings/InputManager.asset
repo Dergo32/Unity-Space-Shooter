@@ -151,9 +151,9 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Horizontal
-    descriptiveName: Developer Use Only
+    descriptiveName: For developer use only
     descriptiveNegativeName: 
-    negativeButton: d
+    negativeButton: 
     positiveButton: a
     altNegativeButton: 
     altPositiveButton: 
@@ -167,9 +167,9 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Vertical
-    descriptiveName: Developer Use Only
+    descriptiveName: For developer use only
     descriptiveNegativeName: 
-    negativeButton: s
+    negativeButton: 
     positiveButton: w
     altNegativeButton: 
     altPositiveButton: 

@@ -21,7 +21,7 @@ public class playerMovement : MonoBehaviour {
 
 	public GameObject laser;
 	public Transform laserSpawn;
-	public GameObject Asteroid;
+
 	public GameObject gameoverScreen;
 	public GameObject PauseScreen;
 
@@ -36,9 +36,9 @@ public class playerMovement : MonoBehaviour {
 			nextFire = Time.time + fireRate;
 			Instantiate (laser, laserSpawn.position, laserSpawn.rotation);
 		}
+
 	}
 
-	// Update is called once per frame
 	void FixedUpdate () {
 
 
