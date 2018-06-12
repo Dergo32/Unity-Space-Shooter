@@ -35,6 +35,8 @@ public class playerMovement : MonoBehaviour {
 		if (Input.GetButton("Fire") && Time.time > nextFire) {
 			nextFire = Time.time + fireRate;
 			Instantiate (laser, laserSpawn.position, laserSpawn.rotation);
+			AudioSource laserAudio = gameObject.GetComponent (typeof(AudioSource)) as AudioSource;	//sound effect of laser
+			laserAudio.Play ();
 		}
 
 	}
