@@ -5,6 +5,8 @@ public class destroyOnContact : MonoBehaviour {
 
 	public GameObject explosion;
 	public GameObject playerExplosion;
+	public int scoreValue;
+	public GameController GameManager;
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Enemy" || other.tag == "Environment") {
@@ -18,8 +20,8 @@ public class destroyOnContact : MonoBehaviour {
 		if (other.tag == "Player") {
 			Instantiate (playerExplosion, other.transform.position, other.transform.rotation);
 		}
-
-		//delete affected objects
+			
+		GameManager.addToScore (scoreValue);
 		Destroy (other.gameObject);		//order doesn't matter
 		Destroy (gameObject);
 	}
