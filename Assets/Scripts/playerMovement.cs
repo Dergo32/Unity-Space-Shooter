@@ -22,8 +22,8 @@ public class playerMovement : MonoBehaviour {
 	public GameObject laser;
 	public Transform laserSpawn;
 	public GameObject Asteroid;
-	public GameObject gameoverScreen;
 	public GameObject PauseScreen;
+	public GameObject GameoverScreen;
 
 	// Use this for initialization
 	void Start () {
@@ -98,8 +98,10 @@ public class playerMovement : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider other){
-		gameoverScreen.SetActive(true);
+		GameoverScreen.active = true;
 	}
+
+		
 	
 }
 	
