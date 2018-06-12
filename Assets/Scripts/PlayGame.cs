@@ -21,8 +21,6 @@ public class PlayGame : MonoBehaviour {
 	public GameObject leaderboardpanel;
 	public GameObject shoppanel;
 	public GameObject PauseMenu;
-	public GameObject[] DeathText;
-	public static List <GameObject> DeathRandomText;
 	public GameObject Disclaimerpanel;
 
 	public void OpenSettings()
