@@ -260,7 +260,6 @@ MonoBehaviour:
   leaderboardpanel: {fileID: 0}
   shoppanel: {fileID: 0}
   PauseMenu: {fileID: 1473826387}
-  DeathText: []
   Disclaimerpanel: {fileID: 0}
 --- !u!114 &210085475
 MonoBehaviour:
@@ -280,6 +279,8 @@ MonoBehaviour:
   wait: 1
   startWait: 1
   waitBetweenWaves: 1
+  scoreText: {fileID: 510022336}
+  score: 0
 --- !u!82 &210085476
 AudioSource:
   m_ObjectHideFlags: 0
