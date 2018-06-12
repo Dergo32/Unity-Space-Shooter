@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 136384026105999966}
   - component: {fileID: 114994717586412866}
   - component: {fileID: 114104828643412196}
+  - component: {fileID: 114678519065047534}
   m_Layer: 0
   m_Name: Asteriod
   m_TagString: Environment
@@ -143,6 +144,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
   playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
+--- !u!114 &114678519065047534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773355751372800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60acb3e0717d7427db931b1e781e20a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTimer: 10
 --- !u!114 &114994717586412866
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -110,6 +110,7 @@
      <Compile Include="Assets\Scripts\PlayGame.cs" />
      <Compile Include="Assets\Scripts\randomRotate.cs" />
      <Compile Include="Assets\Scripts\scrollScript.cs" />
+     <Compile Include="Assets\Scripts\timeDestroy.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
  <Reference Include="UnityEngine.UIAutomation">
