@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
@@ -11,7 +12,7 @@ public class GameController : MonoBehaviour {
 	public float startWait;
 	public float waitBetweenWaves;
 
-	public GUIText scoreText;
+	public Text scoreText;
 	public int score;
 
 	void Start () {
@@ -46,7 +47,7 @@ public class GameController : MonoBehaviour {
 
 	void scoreUpdate(){
 
-		scoreText.guiText = score;
+		scoreText.text = score.ToString();
 
 	}
 }
