@@ -45,7 +45,7 @@ public class playerMovement : MonoBehaviour {
 
 	void FixedUpdate () {
 
-
+		//TODO: Clean up variables
 		minCamBoundX = playerCamera.position.x - minBoundX;
 		maxCamBoundX = playerCamera.position.x + maxBoundX;
 		minCamBoundZ = playerCamera.position.z - minBoundZ;
