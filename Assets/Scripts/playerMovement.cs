@@ -24,10 +24,12 @@ public class playerMovement : MonoBehaviour {
 	public GameObject Asteroid;
 	public GameObject PauseScreen;
 	public GameObject GameoverScreen;
+	public bool isdead;
 
 	// Use this for initialization
 	void Start () {
 		playerBody.freezeRotation = true;
+		isdead = true;
 	}
 
 	void Update(){
@@ -99,6 +101,7 @@ public class playerMovement : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other){
 		GameoverScreen.active = true;
+		isdead = false;
 	}
 
 		

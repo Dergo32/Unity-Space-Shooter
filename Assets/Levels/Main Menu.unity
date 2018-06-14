@@ -579,7 +579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &199734308
 RectTransform:
   m_ObjectHideFlags: 0
@@ -902,8 +902,6 @@ MonoBehaviour:
   leaderboardpanel: {fileID: 199734307}
   shoppanel: {fileID: 719396689}
   PauseMenu: {fileID: 0}
-  GameOverScreen: {fileID: 0}
-  DeathText: []
   Disclaimerpanel: {fileID: 10034423}
 --- !u!4 &405022298
 Transform:
@@ -1342,7 +1340,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No time to code in a scoring system :(
+  m_Text: No time to code in a leaderboard system :(
 --- !u!222 &677723870
 CanvasRenderer:
   m_ObjectHideFlags: 0
