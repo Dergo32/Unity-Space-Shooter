@@ -1,6 +1,6 @@
-﻿using UnityEngine.UI;		//make sure to include this reference
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
@@ -47,7 +47,7 @@ public class GameController : MonoBehaviour {
 
 	void scoreUpdate(){
 
-		scoreText.text = score.ToString ();				//update text
+		scoreText.text = score.ToString();
 
 	}
 }
