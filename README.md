@@ -8,7 +8,7 @@ This is a work-in-progress top-down shooter created in Unity.
 
 To install this project, you will need the following:
 
-* [A copy of the project (currently unavailable)](https://github.com/Dergo32/Unity-Space-Shooter/releases/tag/v0.1)
+* [A copy of the project](https://github.com/Dergo32/Unity-Space-Shooter/releases/tag/v0.1)
 
 ### Installing
 
